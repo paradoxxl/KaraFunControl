@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KFC.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="getStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="getStatus"&gt;&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="getCatalogList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="getCatalogList"&gt;&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="general" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="setVolume" volume_type="general"&gt;{0}&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="bv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="setVolume" volume_type="bv"&gt;{0}&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="lead1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="setVolume" volume_type="lead1"&gt;{0}&lt;/action&gt; </Value>
+    </Setting>
+    <Setting Name="lead2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="setVolume" volume_type="lead2"&gt;{0}&lt;/action&gt; </Value>
+    </Setting>
+    <Setting Name="play" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="play"&gt;&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="pause" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="pause"&gt;&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="next" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="next"&gt;&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="seek" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="seek"&gt;{0}&lt;/action&gt; </Value>
+    </Setting>
+    <Setting Name="pitch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="pitch"&gt;{0}&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="tempo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;action type="tempo"&gt;{0}&lt;/action&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
