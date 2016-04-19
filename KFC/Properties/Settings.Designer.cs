@@ -166,5 +166,29 @@ namespace KaraFunControl.Properties {
                 this["tempo"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1984")]
+        public int VendorID {
+            get {
+                return ((int)(this["VendorID"]));
+            }
+            set {
+                this["VendorID"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4375")]
+        public int ProductId {
+            get {
+                return ((int)(this["ProductId"]));
+            }
+            set {
+                this["ProductId"] = value;
+            }
+        }
     }
 }

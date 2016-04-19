@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KFC.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KaraFunControl.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="getStatus" Type="System.String" Scope="User">
@@ -37,6 +37,12 @@
     </Setting>
     <Setting Name="tempo" Type="System.String" Scope="User">
       <Value Profile="(Default)">&lt;action type="tempo"&gt;{0}&lt;/action&gt;</Value>
+    </Setting>
+    <Setting Name="VendorID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1984</Value>
+    </Setting>
+    <Setting Name="ProductId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4375</Value>
     </Setting>
   </Settings>
 </SettingsFile>

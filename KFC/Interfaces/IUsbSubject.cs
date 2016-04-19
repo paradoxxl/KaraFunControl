@@ -1,10 +1,12 @@
-﻿namespace KFC.Interfaces
+﻿using KaraFunControl.USB;
+
+namespace KFC.Interfaces
 {
     interface IUsbSubject
     {
         void Subscribe(IUsbObserver observer);
         void UnSubscribe(IUsbObserver observer);
-        void NotifyObservers();
+        void NotifyObservers(ControllerMessage msg);
 
     }
 }

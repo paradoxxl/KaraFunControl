@@ -1,7 +1,9 @@
-﻿namespace KFC.Interfaces
+﻿using KaraFunControl.USB;
+
+namespace KFC.Interfaces
 {
     interface IUsbObserver
     {
-        void OnUsbData(UsbData data);
+        void OnUsbData(ControllerMessage data);
     }
 }

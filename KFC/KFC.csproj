@@ -48,8 +48,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+    <Reference Include="HidLibrary, Version=3.2.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\hidlibrary.3.2.36.0\lib\HidLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.14.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.4\lib\net45-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -69,7 +73,7 @@
     <Compile Include="Interfaces\IUsbObserver.cs" />
     <Compile Include="Interfaces\IWsObserver.cs" />
     <Compile Include="Interfaces\IWsSubject.cs" />
-    <Compile Include="SenderData.cs" />
+    <Compile Include="Networking\SenderData.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -83,9 +87,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Statics.cs" />
-    <Compile Include="UsbData.cs" />
-    <Compile Include="WebMessageFilter.cs" />
-    <Compile Include="WsHandler.cs" />
+    <Compile Include="USB\ControllerMessage.cs" />
+    <Compile Include="USB\USBHandler.cs" />
+    <Compile Include="Networking\WebMessageFilter.cs" />
+    <Compile Include="Networking\WsHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

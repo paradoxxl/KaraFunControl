@@ -34,5 +34,11 @@ namespace KFC
         position
     }
 
+    public enum UsbStatus
+    {
+        connected,
+        dicsonnected
+    }
+
 
 }
